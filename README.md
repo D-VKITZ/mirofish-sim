@@ -1,86 +1,58 @@
-<div align="center">
-
-![DEVKiTZ](https://img.shields.io/badge/DEVKiTZ-Module-06b6d4?style=for-the-badge)
-![Version](https://img.shields.io/badge/v1.0-00ff88?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-06b6d4?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-00ff88?style=flat-square)
+![Module](https://img.shields.io/badge/DEVKiTZ-Module-06b6d4?style=for-the-badge&labelColor=00ff88)
+![Version](https://img.shields.io/badge/version-v1.0.0-06b6d4?style=flat-square&labelColor=0d0d14)
+![License](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d0d14)
+![Status](https://img.shields.io/badge/status-active-00ff88?style=flat-square&labelColor=0d0d14)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-# MiroFish Sim
+# MiroFish Simulator
 
-**Swarm AI Simulator for DEVKiTZ Ecosystem**
-
-</div>
+> **Swarm AI Prediction Engine** - Part of the [DEVKiTZ](https://github.com/D-VKITZ) Ecosystem
 
 ---
 
 ## Preview
 
 ```
-+--------------------------------------------------------------+
-|  MiroFish Sim -- Swarm Intelligence                    [x]   |
-|--------------------------------------------------------------|
-|  Pipeline: [Sense] > [Think] > [Decide] > [Act] > [Learn]   |
-|--------------------------------------------------------------|
-|                                                              |
-|    ><>  ><>     ><>        Agent Grid 8x8                    |
-|  ><>      ><>    ><>                                         |
-|     ><>  ><>  ><>   ><>     Swarm: 24 agents                |
-|  ><>    ><>      ><>        Fitness: 0.87                    |
-|     ><>     ><>    ><>                                       |
-|                                                              |
-|  [Prediction Cards]                                          |
-|  +----------+ +----------+ +----------+                      |
-|  | Next: N  | | Fit: 92% | | Gen: 14  |                     |
-|  +----------+ +----------+ +----------+                      |
-+--------------------------------------------------------------+
++----------------------------------------------+
+|  MiroFish Simulator      5 Pipeline Steps    |
++----------------------------------------------+
+|                                              |
+|  [1.Ontology]-->[2.Graph]-->[3.Simulate]     |
+|       |              |            |          |
+|   Upload Text    Build Net    Run Agents     |
+|   Drop Files     10 Nodes     Grid Sim       |
+|                  12 Edges     Live Stats     |
+|                                   |          |
+|              [4.Reports]<---------+          |
+|                   |                          |
+|              [5.Interact]                    |
+|              Agent Interview                 |
++----------------------------------------------+
 ```
-
----
 
 ## Features
 
-| Feature | Description |
-|:--------|:------------|
-| Swarm AI Simulator | Multi-agent swarm intelligence with emergent behavior |
-| 5-Step Pipeline | Sense, Think, Decide, Act, Learn -- full cognitive loop |
-| Agent Grid | 8x8 spatial grid with real-time agent movement |
-| Prediction Cards | Live fitness scores, generation count and next-move prediction |
-| Fish Animation | Animated swarm agents with flocking and avoidance behavior |
-| Evolution Engine | Genetic algorithm with mutation, crossover and selection |
-
----
-
-## Tech Stack
-
-| Technology | Purpose |
-|:-----------|:--------|
-| HTML5 | Canvas-based agent rendering |
-| CSS3 | DkZ Design System with cyan-green theme |
-| JavaScript ES6+ | Swarm simulation engine and genetic algorithms |
-| Canvas API | Real-time 2D agent animation |
-| Web Workers | Background simulation processing |
-
----
+| Status | Feature |
+|:-------|:--------|
+| Done | 5-Step Swarm AI Pipeline |
+| Done | Ontology Upload with Textarea and Drop Zone |
+| Done | Entity Graph with 10 Entities and 12 Relations |
+| Done | Agent Grid Simulation with Live Counters |
+| Done | 6 Prediction Cards with Confidence Bars |
+| Done | Agent Interview Chat Interface |
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/D-VKITZ/mirofish-sim.git
-cd mirofish-sim
-# Open index.html in your browser
+open mirofish-sim/index.html
 ```
 
 ---
 
-<div align="center">
-
-**DEVKiTZ Ecosystem**
-
-[devkitz.eu](https://devkitz.eu) · [dkz.app](https://dkz.app) · [GitHub](https://github.com/D-VKITZ)
-
-Built with the DkZ Design System -- `--accent: #fa1e4e` · `--bg: #060608`
-
-</div>
+<p align="center">
+<sub>DEVKiTZ - Made with love by 777 - 2026</sub><br>
+<sub>devkitz.eu | dkz.app | github.com/D-VKITZ</sub>
+</p>
